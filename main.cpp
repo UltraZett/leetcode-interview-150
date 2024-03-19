@@ -2,8 +2,8 @@
 //#include "Solution13.h"
 //#include "Solution12.h"
 //#include "Solution58.h"
-#include "Solution14.h"
-
+//#include "Solution14.h"
+#include "Solution151.h"
 
 int main() {
 //    Solution13* s = new Solution13();
@@ -14,9 +14,8 @@ int main() {
 //
 //    cout<< s->lengthOfLastWord("luffy is still joyboy");
 
-    Solution14* s = new Solution14();
-    vector<string> a{"ab", "a"};
-    cout<< s->longestCommonPrefix(a)<<endl;
+    Solution151* s = new Solution151();
+    cout<< s->reverseWords("  hello world  ")<<endl;
 
     return 0;
 }
