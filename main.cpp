@@ -4,7 +4,7 @@
 //#include "Solution58.h"
 //#include "Solution14.h"
 #include "Solution151.h"
-
+#include "Solution28.h"
 int main() {
 //    Solution13* s = new Solution13();
 //    cout<< s->romanToInt("MCMXCIV");
@@ -14,8 +14,11 @@ int main() {
 //
 //    cout<< s->lengthOfLastWord("luffy is still joyboy");
 
-    Solution151* s = new Solution151();
-    cout<< s->reverseWords("  hello world  ")<<endl;
+//    Solution151* s = new Solution151();
+//    cout<< s->reverseWords("  hello world  ")<<endl;
+
+    Solution28* s = new Solution28();
+    cout<< s->strStr("mississippi","issipi")<<endl;
 
     return 0;
 }

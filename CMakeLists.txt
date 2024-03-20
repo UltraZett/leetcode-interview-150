@@ -19,4 +19,8 @@ add_executable(leetcode main.cpp
         Solution151.cpp
         Solution151.h
         Solution6.cpp
-        Solution6.h)
+        Solution6.h
+        Solution28.cpp
+        Solution28.h
+        Solution68.cpp
+        Solution68.h)
