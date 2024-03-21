@@ -3,8 +3,10 @@
 //#include "Solution12.h"
 //#include "Solution58.h"
 //#include "Solution14.h"
-#include "Solution151.h"
-#include "Solution28.h"
+//#include "Solution151.h"
+//#include "Solution28.h"
+//#include "Solution125.h"
+#include "Solution392.h"
 int main() {
 //    Solution13* s = new Solution13();
 //    cout<< s->romanToInt("MCMXCIV");
@@ -17,8 +19,14 @@ int main() {
 //    Solution151* s = new Solution151();
 //    cout<< s->reverseWords("  hello world  ")<<endl;
 
-    Solution28* s = new Solution28();
-    cout<< s->strStr("mississippi","issipi")<<endl;
+//    Solution28* s = new Solution28();
+//    cout<< s->strStr("mississippi","issipi")<<endl;
+
+//    Solution125* s = new Solution125();
+//    cout<< s->isPalindrome("0P")<<endl;
+
+    Solution392* s = new Solution392();
+    cout<< s->isSubsequence("axc","ahbgdc")<<endl;
 
     return 0;
 }
