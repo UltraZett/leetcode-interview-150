@@ -8,10 +8,8 @@ using namespace std;
 
 string Solution14::longestCommonPrefix(vector<string> &strs) {
     string pre = strs[0];
-
     for (int i = 1; i < strs.size(); ++i) {
         string str = strs[i];
-
         if (str.size() < pre.size()){
             string temp = pre;
             pre = str;

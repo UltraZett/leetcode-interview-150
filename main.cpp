@@ -6,7 +6,11 @@
 //#include "Solution151.h"
 //#include "Solution28.h"
 //#include "Solution125.h"
-#include "Solution392.h"
+//#include "Solution392.h"
+//#include "Solution167.h"
+#include "Solution15.h"
+#include "vector"
+
 int main() {
 //    Solution13* s = new Solution13();
 //    cout<< s->romanToInt("MCMXCIV");
@@ -25,8 +29,9 @@ int main() {
 //    Solution125* s = new Solution125();
 //    cout<< s->isPalindrome("0P")<<endl;
 
-    Solution392* s = new Solution392();
-    cout<< s->isSubsequence("axc","ahbgdc")<<endl;
+    Solution15* s = new Solution15();
+    vector<int> v = {-1,0,1,2,-1,-4};
+    s->threeSum(v);
 
     return 0;
 }
